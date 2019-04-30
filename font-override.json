@@ -1,0 +1,27 @@
+[
+	{
+		"enabled": true,
+		"md5Url": null,
+		"originalMd5": null,
+		"installDate": 1556519694166,
+		"sourceCode": "/* ==UserStyle==\n@name           FontOverride\n@namespace      github.com/gasuketsu/stylus-config\n@version        1.0.0\n@description    Font override configuration\n@author         gasuketsu\n==/UserStyle== */\n@font-face {\n    font-family: \"ＭＳ Ｐゴシック\";\n    src: local(\"Noto Sans CJK JP\"), local(\"更紗ゴシック J\"), local(\"MS PGothic\");\n}\n\n@font-face {\n    font-family: \"MS PGothic\";\n    src: local(\"Noto Sans CJK JP\"), local(\"更紗ゴシック J\"), local(\"MS PGothic\");\n}\n\n@font-face {\n    font-family: \"MS UIGothic\";\n    src: local(\"Noto Sans CJK JP\"), local(\"更紗ゴシック UI J\"), local(\"MS UIGothic\");\n}\n\n@font-face {\n    font-family: \"ＭＳ ゴシック\";\n    src: local(\"Noto Sans Mono CJK JP\"), local(\"SarasaTerm J\"), local(\"MS Gothic\");\n}\n\n@font-face {\n    font-family: \"MS Gothic\";\n    src: local(\"Noto Sans Mono CJK JP\"), local(\"SarasaTerm J\"), local(\"MS Gothic\");\n}\n\n@font-face {\n    font-family: \"ＭＳ Ｐ明朝\";\n    src: local(\"Noto Serif CJK JP\"), local(\"MS PMincho\");\n}\n\n@font-face {\n    font-family: \"MS PMincho\";\n    src: local(\"Noto Serif CJK JP\"), local(\"MS PMincho\");\n}",
+		"sections": [
+			{
+				"code": "@font-face {\n    font-family: \"ＭＳ Ｐゴシック\";\n    src: local(\"Noto Sans CJK JP\"), local(\"更紗ゴシック J\"), local(\"MS PGothic\");\n}\n\n@font-face {\n    font-family: \"MS PGothic\";\n    src: local(\"Noto Sans CJK JP\"), local(\"更紗ゴシック J\"), local(\"MS PGothic\");\n}\n\n@font-face {\n    font-family: \"MS UIGothic\";\n    src: local(\"Noto Sans CJK JP\"), local(\"更紗ゴシック UI J\"), local(\"MS UIGothic\");\n}\n\n@font-face {\n    font-family: \"ＭＳ ゴシック\";\n    src: local(\"Noto Sans Mono CJK JP\"), local(\"SarasaTerm J\"), local(\"MS Gothic\");\n}\n\n@font-face {\n    font-family: \"MS Gothic\";\n    src: local(\"Noto Sans Mono CJK JP\"), local(\"SarasaTerm J\"), local(\"MS Gothic\");\n}\n\n@font-face {\n    font-family: \"ＭＳ Ｐ明朝\";\n    src: local(\"Noto Serif CJK JP\"), local(\"MS PMincho\");\n}\n\n@font-face {\n    font-family: \"MS PMincho\";\n    src: local(\"Noto Serif CJK JP\"), local(\"MS PMincho\");\n}",
+				"start": 0
+			}
+		],
+		"usercssData": {
+			"name": "FontOverride",
+			"namespace": "github.com/gasuketsu/stylus-config",
+			"version": "1.0.0",
+			"description": "Font override configuration",
+			"author": "gasuketsu"
+		},
+		"author": "gasuketsu",
+		"description": "Font override configuration",
+		"name": "FontOverride",
+		"updateDate": 1556638146166,
+		"id": 1
+	}
+]
