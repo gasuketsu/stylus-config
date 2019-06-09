@@ -25,10 +25,10 @@
 		"name": "FontOverride",
 		"sections": [
 			{
-				"code": "@font-face {\n    font-family: \"ＭＳ Ｐゴシック\";\n    src: local(\"源真ゴシック\");\n}\n\n@font-face {\n    font-family: \"MS PGothic\";\n    src: local(\"源真ゴシック\");\n}\n\n@font-face {\n    font-family: \"メイリオ\";\n    src: local(\"源真ゴシック\");\n}\n\n@font-face {\n    font-family: \"Meiryo\";\n    src: local(\"源真ゴシック\");\n}\n\n@font-face {\n    font-family: \"MS UI Gothic\";\n    src: local(\"源真ゴシック\");\n}\n\n@font-face {\n    font-family: \"ＭＳ ゴシック\";\n    src: local(\"SarasaTerm J\");\n}\n\n@font-face {\n    font-family: \"MS Gothic\";\n    src: local(\"SarasaTerm J\");\n}\n\n@font-face {\n    font-family: \"ＭＳ Ｐ明朝\";\n    src: local(\"游明朝\");\n}\n\n@font-face {\n    font-family: \"MS PMincho\";\n    src: local(\"游明朝\");\n}"
+				"code": "@font-face {\n    font-family: \"ＭＳ Ｐゴシック\";\n    src: local(\"源真ゴシック\");\n}\n\n@font-face {\n    font-family: \"MS PGothic\";\n    src: local(\"源真ゴシック\");\n}\n\n@font-face {\n    font-family: \"メイリオ\";\n    src: local(\"源真ゴシック\");\n}\n\n@font-face {\n    font-family: \"Meiryo\";\n    src: local(\"源真ゴシック\");\n}\n\n@font-face {\n    font-family: \"arial\";\n    src: local(\"源真ゴシック\");\n}\n\n@font-face {\n    font-family: \"MS UI Gothic\";\n    src: local(\"源真ゴシック\");\n}\n\n@font-face {\n    font-family: \"ＭＳ ゴシック\";\n    src: local(\"SarasaTerm J\");\n}\n\n@font-face {\n    font-family: \"MS Gothic\";\n    src: local(\"SarasaTerm J\");\n}\n\n@font-face {\n    font-family: \"ＭＳ Ｐ明朝\";\n    src: local(\"游明朝\");\n}\n\n@font-face {\n    font-family: \"MS PMincho\";\n    src: local(\"游明朝\");\n}"
 			}
 		],
-		"updateDate": 1560043073496,
+		"updateDate": 1560060489381,
 		"id": 3
 	}
 ]
