@@ -5,30 +5,14 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"installDate": 1559606520485,
-		"name": "tabstop",
-		"sections": [
-			{
-				"code": ".tab-size {\n    -webkit-tab-size: 4 !important;\n    -moz-tab-size: 4 !important;\n    -o-tab-size: 4 !important;\n    tab-size: 4 !important;\n}"
-			}
-		],
-		"updateDate": 1559606520485,
-		"id": 2
-	},
-	{
-		"enabled": true,
-		"updateUrl": null,
-		"md5Url": null,
-		"url": null,
-		"originalMd5": null,
 		"installDate": 1559606730234,
 		"name": "FontOverride",
 		"sections": [
 			{
-				"code": "@font-face {\n    font-family: \"ＭＳ Ｐゴシック\";\n    src: local(\"源真ゴシック\");\n}\n\n@font-face {\n    font-family: \"MS PGothic\";\n    src: local(\"源真ゴシック\");\n}\n\n@font-face {\n    font-family: \"メイリオ\";\n    src: local(\"源真ゴシック\");\n}\n\n@font-face {\n    font-family: \"Meiryo\";\n    src: local(\"源真ゴシック\");\n}\n\n@font-face {\n    font-family: \"arial\";\n    src: local(\"源真ゴシック\");\n}\n\n@font-face {\n    font-family: \"verdana\";\n    src: local(\"源真ゴシック\");\n}\n\n@font-face {\n    font-family: \"MS UI Gothic\";\n    src: local(\"源真ゴシック\");\n}\n\n@font-face {\n    font-family: \"ＭＳ ゴシック\";\n    src: local(\"SarasaTerm J\");\n}\n\n@font-face {\n    font-family: \"MS Gothic\";\n    src: local(\"SarasaTerm J\");\n}\n\n@font-face {\n    font-family: \"ＭＳ Ｐ明朝\";\n    src: local(\"游明朝\");\n}\n\n@font-face {\n    font-family: \"MS PMincho\";\n    src: local(\"游明朝\");\n}"
+				"code": "@font-face {\n    font-family: \"ＭＳ Ｐゴシック\";\n    src: local(\"Gen Shin Gothic Regular\");\n}\n\n@font-face {\n    font-family: \"MS PGothic\";\n    src: local(\"Gen Shin Gothic Regular\");\n}\n\n@font-face {\n    font-family: \"メイリオ\";\n    src: local(\"Gen Shin Gothic Regular\");\n}\n\n@font-face {\n    font-family: \"Meiryo\";\n    src: local(\"Gen Shin Gothic Regular\");\n}\n\n@font-face {\n    font-family: \"MS UI Gothic\";\n    src: local(\"Gen Shin Gothic Regular\");\n}\n\n@font-face {\n    font-family: \"ＭＳ ゴシック\";\n    src: local(\"SarasaTerm J\");\n}\n\n@font-face {\n    font-family: \"MS Gothic\";\n    src: local(\"SarasaTerm J\");\n}\n\n@font-face {\n    font-family: \"ＭＳ Ｐ明朝\";\n    src: local(\"Yu Mincho Regular\");\n}\n\n@font-face {\n    font-family: \"MS PMincho\";\n    src: local(\"Yu Mincho Regular\");\n}\n\n@font-face {\n    font-family: \"MS 明朝\";\n    src: local(\"Yu Mincho Regular\");\n}\n\n@font-face {\n    font-family: \"MS Mincho\";\n    src: local(\"Yu Mincho Regular\");\n}"
 			}
 		],
-		"updateDate": 1560061115863,
+		"updateDate": 1581667868214,
 		"id": 3
 	}
 ]
