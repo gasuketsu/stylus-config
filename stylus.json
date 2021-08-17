@@ -4,7 +4,7 @@
       "openEditInWindow": false,
       "openEditInWindow.popup": false,
       "windowPosition": {},
-      "show-badge": true,
+      "show-badge": false,
       "disableAll": false,
       "exposeIframes": false,
       "newStyleAsUsercss": false,
@@ -18,6 +18,7 @@
       "popup.autoResort": false,
       "popup.borders": false,
       "popup.findStylesInline": true,
+      "popup.findSort": "u",
       "manage.onlyEnabled": false,
       "manage.onlyLocal": false,
       "manage.onlyUsercss": false,
@@ -36,6 +37,7 @@
       "editor.toc.expanded": true,
       "editor.options.expanded": true,
       "editor.lint.expanded": true,
+      "editor.publish.expanded": true,
       "editor.lineWrapping": true,
       "editor.smartIndent": true,
       "editor.indentWithTabs": false,
@@ -88,12 +90,13 @@
     "name": "FontOverride",
     "sections": [
       {
-        "code": "@font-face {\n    font-family: \"ＭＳ Ｐゴシック\";\n    src: local(\"Sarasa Gothic J\");\n}\n\n@font-face {\n    font-family: \"MS PGothic\";\n    src: local(\"Sarasa Gothic J\");\n}\n\n@font-face {\n    font-family: \"メイリオ\";\n    src: local(\"Sarasa Gothic J\");\n}\n\n@font-face {\n    font-family: \"Meiryo\";\n    src: local(\"Sarasa Gothic J\");\n}\n\n@font-face {\n    font-family: \"Meiryo UI\";\n    src: local(\"Sarasa UI J\");\n}\n\n@font-face {\n    font-family: \"MS UI Gothic\";\n    src: local(\"Sarasa UI J\");\n}\n\n@font-face {\n    font-family: \"ＭＳ ゴシック\";\n    src: local(\"Sarasa Fixed J\");\n}\n\n@font-face {\n    font-family: \"MS Gothic\";\n    src: local(\"Sarasa Fixed J\");\n}\n\n@font-face {\n    font-family: \"ＭＳ Ｐ明朝\";\n    src: local(\"Yu Mincho\");\n}\n\n@font-face {\n    font-family: \"MS PMincho\";\n    src: local(\"Yu Mincho\");\n}\n\n@font-face {\n    font-family: \"MS 明朝\";\n    src: local(\"Yu Mincho\");\n}\n\n@font-face {\n    font-family: \"MS Mincho\";\n    src: local(\"Yu Mincho\");\n}"
+        "code": "@font-face {\n    font-family: \"ＭＳ Ｐゴシック\";\n    src: local(\"IBM Plex Sans JP\");\n}\n\n@font-face {\n    font-family: \"MS PGothic\";\n    src: local(\"IBM Plex Sans JP\");\n}\n\n@font-face {\n    font-family: \"メイリオ\";\n    src: local(\"IBM Plex Sans JP\");\n}\n\n@font-face {\n    font-family: \"Meiryo\";\n    src: local(\"IBM Plex Sans JP\");\n}\n\n@font-face {\n    font-family: \"Meiryo UI\";\n    src: local(\"IBM Plex Sans JP\");\n}\n\n@font-face {\n    font-family: \"MS UI Gothic\";\n    src: local(\"IBM Plex Sans JP\");\n}\n\n@font-face {\n    font-family: \"ＭＳ ゴシック\";\n    src: local(\"PlemolJP Console NF\");\n}\n\n@font-face {\n    font-family: \"MS Gothic\";\n    src: local(\"PlemolJP Console NF\");\n}\n\n@font-face {\n    font-family: \"ＭＳ Ｐ明朝\";\n    src: local(\"Yu Mincho\");\n}\n\n@font-face {\n    font-family: \"MS PMincho\";\n    src: local(\"Yu Mincho\");\n}\n\n@font-face {\n    font-family: \"MS 明朝\";\n    src: local(\"Yu Mincho\");\n}\n\n@font-face {\n    font-family: \"MS Mincho\";\n    src: local(\"Yu Mincho\");\n}"
       }
     ],
-    "updateDate": 1617597565463,
+    "updateDate": 1629182148387,
     "id": 3,
     "_id": "d7aba71a-80e7-418b-9936-21e313b8a19b",
-    "_rev": 1617597565463
+    "_rev": 1629182148387,
+    "_usw": {}
   }
 ]
