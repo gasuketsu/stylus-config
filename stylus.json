@@ -7,17 +7,20 @@
       "show-badge": false,
       "disableAll": false,
       "exposeIframes": false,
+      "exposeStyleName": false,
       "newStyleAsUsercss": false,
       "styleViaXhr": false,
       "patchCsp": false,
       "config.autosave": true,
+      "schemeSwitcher.enabled": "system",
+      "schemeSwitcher.nightStart": "18:00",
+      "schemeSwitcher.nightEnd": "06:00",
       "popup.breadcrumbs": true,
       "popup.breadcrumbs.usePath": false,
       "popup.enabledFirst": true,
       "popup.stylesFirst": true,
       "popup.autoResort": false,
       "popup.borders": false,
-      "popup.findStylesInline": true,
       "popup.findSort": "u",
       "manage.onlyEnabled": false,
       "manage.onlyLocal": false,
@@ -28,6 +31,7 @@
       "manage.actions.expanded": true,
       "manage.backup.expanded": true,
       "manage.filters.expanded": true,
+      "manage.minColumnWidth": 750,
       "manage.newUI": true,
       "manage.newUI.favicons": false,
       "manage.newUI.faviconsGray": true,
@@ -42,8 +46,8 @@
       "editor.smartIndent": true,
       "editor.indentWithTabs": false,
       "editor.tabSize": 4,
-      "editor.keyMap": "sublime",
-      "editor.theme": "default",
+      "editor.keyMap": "vim",
+      "editor.theme": "gruvbox-dark",
       "editor.beautify": {
         "selector_separator_newline": true,
         "newline_before_open_brace": false,
@@ -62,9 +66,11 @@
       "editor.matchHighlight": "token",
       "editor.autoCloseBrackets": true,
       "editor.autocompleteOnTyping": false,
-      "editor.contextDelete": null,
+      "editor.contextDelete": false,
       "editor.selectByTokens": true,
+      "editor.arrowKeysTraverse": true,
       "editor.appliesToLineWidget": true,
+      "editor.autosaveDraft": 10,
       "editor.livePreview": true,
       "editor.colorpicker": true,
       "editor.colorpicker.hexUppercase": false,
@@ -74,29 +80,33 @@
       "hotkey._execute_browser_action": "",
       "hotkey.openManage": "",
       "hotkey.styleDisableAll": "",
-      "sync.enabled": "none",
+      "sync.enabled": "onedrive",
       "iconset": 0,
       "badgeDisabled": "#8B0000",
       "badgeNormal": "#006666",
+      "headerWidth.edit": 280,
+      "headerWidth.install": 280,
+      "headerWidth.manage": 280,
       "popupWidth": 246,
       "updateInterval": 24
+    },
+    "order": {
+      "main": [],
+      "prio": []
     }
   },
   {
     "enabled": true,
-    "updateUrl": null,
-    "url": null,
     "installDate": 1559606730234,
     "name": "FontOverride",
     "sections": [
       {
-        "code": "@font-face {\n    font-family: \"ＭＳ Ｐゴシック\";\n    src: local(\"IBM Plex Sans JP\");\n}\n\n@font-face {\n    font-family: \"MS PGothic\";\n    src: local(\"IBM Plex Sans JP\");\n}\n\n@font-face {\n    font-family: \"メイリオ\";\n    src: local(\"IBM Plex Sans JP\");\n}\n\n@font-face {\n    font-family: \"Meiryo\";\n    src: local(\"IBM Plex Sans JP\");\n}\n\n@font-face {\n    font-family: \"Meiryo UI\";\n    src: local(\"IBM Plex Sans JP\");\n}\n\n@font-face {\n    font-family: \"MS UI Gothic\";\n    src: local(\"IBM Plex Sans JP\");\n}\n\n@font-face {\n    font-family: \"ＭＳ ゴシック\";\n    src: local(\"UDEV Gothic NF\");\n}\n\n@font-face {\n    font-family: \"MS Gothic\";\n    src: local(\"UDEV Gothic NF\");\n}\n\n@font-face {\n    font-family: \"ＭＳ Ｐ明朝\";\n    src: local(\"Yu Mincho\");\n}\n\n@font-face {\n    font-family: \"MS PMincho\";\n    src: local(\"Yu Mincho\");\n}\n\n@font-face {\n    font-family: \"MS 明朝\";\n    src: local(\"Yu Mincho\");\n}\n\n@font-face {\n    font-family: \"MS Mincho\";\n    src: local(\"Yu Mincho\");\n}"
+        "code": "@font-face {\n    font-family: \"ＭＳ Ｐゴシック\";\n    src: local(\"IBM Plex Sans JP\");\n}\n\n@font-face {\n    font-family: \"ＭＳ Ｐゴシック\";\n    font-weight: bold;\n    src: local(\"IBM Plex Sans JP Bold\");\n}\n\n@font-face {\n    font-family: \"MS PGothic\";\n    src: local(\"IBM Plex Sans JP\");\n}\n\n@font-face {\n    font-family: \"MS PGothic\";\n    font-weight: bold;\n    src: local(\"IBM Plex Sans JP Bold\");\n}\n\n@font-face {\n    font-family: \"メイリオ\";\n    src: local(\"IBM Plex Sans JP\");\n}\n\n@font-face {\n    font-family: \"メイリオ\";\n    font-weight: bold;\n    src: local(\"IBM Plex Sans JP Bold\");\n}\n\n@font-face {\n    font-family: \"Meiryo\";\n    src: local(\"IBM Plex Sans JP\");\n}\n\n@font-face {\n    font-family: \"Meiryo\";\n    font-weight: bold;\n    src: local(\"IBM Plex Sans JP Bold\");\n}\n\n@font-face {\n    font-family: \"Meiryo UI\";\n    src: local(\"IBM Plex Sans JP\");\n}\n\n@font-face {\n    font-family: \"Meiryo UI\";\n    font-weight: bold;\n    src: local(\"IBM Plex Sans JP Bold\");\n}\n\n@font-face {\n    font-family: \"MS UI Gothic\";\n    src: local(\"IBM Plex Sans JP\");\n}\n\n@font-face {\n    font-family: \"MS UI Gothic\";\n    font-weight: bold;\n    src: local(\"IBM Plex Sans JP Bold\");\n}\n\n@font-face {\n    font-family: \"ＭＳ ゴシック\";\n    src: local(\"UDEV Gothic JPDOC Regular\");\n}\n\n@font-face {\n    font-family: \"ＭＳ ゴシック\";\n    font-weight: bold;\n    src: local(\"UDEV Gothic JPDOC Bold\");\n}\n\n@font-face {\n    font-family: \"MS Gothic\";\n    src: local(\"UDEV Gothic JPDOC Regular\");\n}\n\n@font-face {\n    font-family: \"MS Gothic\";\n    font-weight: bold;\n    src: local(\"UDEV Gothic JPDOC Bold\");\n}\n\n@font-face {\n    font-family: \"ＭＳ Ｐ明朝\";\n    src: local(\"Yu Mincho\");\n}\n\n@font-face {\n    font-family: \"MS PMincho\";\n    src: local(\"Yu Mincho\");\n}\n\n@font-face {\n    font-family: \"MS 明朝\";\n    src: local(\"Yu Mincho\");\n}\n\n@font-face {\n    font-family: \"MS Mincho\";\n    src: local(\"Yu Mincho\");\n}"
       }
     ],
-    "updateDate": 1629182148387,
+    "updateDate": 1682398726192,
     "id": 3,
     "_id": "d7aba71a-80e7-418b-9936-21e313b8a19b",
-    "_rev": 1629182148387,
-    "_usw": {}
+    "_rev": 1682398726192
   }
 ]
